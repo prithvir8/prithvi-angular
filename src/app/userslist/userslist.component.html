@@ -1,0 +1,11 @@
+<h1>Users List</h1>
+<div *ngFor="let ul of usersData" class="listdiv">
+    <li>
+        {{ul.username}}
+    </li>
+    <span>
+        <a [routerLink]="['/userdetails',ul.id]">
+        more User Details
+    </a>
+    </span>
+</div>

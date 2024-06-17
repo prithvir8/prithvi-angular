@@ -1,0 +1,11 @@
+.active {
+    background-color: green;
+    color:white;
+}
+.inactive {
+    background-color: yellow;
+    color:red;
+}
+.colorone{
+    border:solid 3px red;
+}

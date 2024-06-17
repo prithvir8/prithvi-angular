@@ -1,0 +1,10 @@
+<!-- <h1>Working with Template Reference </h1>
+<input type="text" placeholder="Enter some text" #myInput>
+<button (click)="logInputValue(myInput)">Log Input Value</button> -->
+
+
+<form #myform='ngForm'>
+    <input type="username" name="username" ngModel required>
+    <input type="password" name="password" ngModel required>
+    <button (click)="submitForm(myform)">Submit</button>
+</form>

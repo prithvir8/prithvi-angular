@@ -1,0 +1,34 @@
+<h1>ngswitch works!</h1>
+<!-- 
+
+    -ngSwitch -- here to provide expression
+
+    -*ngSwitchCase -- multi blocks 
+
+    -*ngSwitchDefault -- not match to any case, it excute default switchcase
+
+ -->
+
+ <!-- 
+
+    Attribute Directives 
+
+    -ngClass
+    -ngStyle
+    
+    -ngMogel
+  -->
+
+ <input type="text" name="" id="" [(ngModel)]="operator">
+
+ <div [ngSwitch]="operator">
+
+
+    <div *ngSwitchCase="'+'">{{num1+num2}}</div>
+    <div *ngSwitchCase="'-'">{{num1-num2}}</div>
+    <div *ngSwitchCase="'*'">{{num1*num2}}</div>
+    <div *ngSwitchCase="'/'">{{num1/num2}}</div>
+
+    <div *ngSwitchDefault="'-'">{{num1-num2}}</div>
+
+ </div>

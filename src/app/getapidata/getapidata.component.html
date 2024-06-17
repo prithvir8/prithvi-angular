@@ -1,0 +1,14 @@
+<h1>Getapidata works!</h1>
+
+<table border="1" align="center">
+    <tr>
+        <td>User ID</td>
+        <td>Title</td>
+        <td>Body</td>
+    </tr>
+    <tr *ngFor="let udata of printdata">
+        <td>{{udata.userId}}</td>
+        <td>{{udata.title}}</td>
+        <td>{{udata.body}}</td>
+    </tr>
+</table>

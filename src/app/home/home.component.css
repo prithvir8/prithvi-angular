@@ -1,0 +1,18 @@
+main {
+    min-height: 300px;
+    width: 80%;
+    margin: 0px auto;
+    background-color: lightgoldenrodyellow;
+    padding: 20px;
+    display: flex;
+}
+main aside {
+    width: 30%;
+    height: 500px;
+    background-color: azure;
+}
+main article {
+    width: 70%;
+    height: 500px;
+    background-color: rgb(119, 212, 212);
+}

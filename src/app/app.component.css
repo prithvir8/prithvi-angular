@@ -1,0 +1,29 @@
+ h1 {
+    text-align: center;
+    color:red;
+}
+img {
+    width: 500px;
+ 
+}
+.mystyle {
+    background-color: lightpink !important;
+}
+
+.menustyles {
+    display: inline-block;
+    padding: 10px 50px;
+    margin: 0px 5px;
+    background-color: blue;
+    color: wheat;
+}
+
+article {
+    margin: 50px;
+    padding: 50px;
+    background-color: lightgrey;
+}
+
+div {
+    text-align: center;
+}

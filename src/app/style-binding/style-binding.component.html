@@ -1,0 +1,17 @@
+<h1>style-binding works!</h1>
+<hr>
+<!-- 
+
+    [style]={attribute:variable}
+
+    [style.attribute]=variable
+
+ -->
+
+ <h2 [style]="{color:textcolorvariable,background:backgroundcolor}">Style Binding Method-1</h2>
+ 
+ <h2 [style.color]=textcolorvariable>Style Binding Method-2</h2>
+ 
+ <h2 [style]=mystyles>Style Binding Method-3</h2>
+
+<h2 [style.color]="hasError?'red':'Green'">Style Binding Method-4</h2>

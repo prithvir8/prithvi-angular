@@ -1,0 +1,16 @@
+div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.listdiv {
+    text-align: center;
+    list-style-type: none;
+    background-color: lightgoldenrodyellow;
+    margin: 10px auto;
+    width: 50%;
+    padding: 5px 20px;
+}
+span {
+    
+}

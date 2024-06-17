@@ -1,0 +1,26 @@
+<h1>Welcome to ngIf Directive</h1>
+
+<h3 *ngIf="show">Hi am from ngIF Directive</h3>
+
+
+
+<div *ngIf="isVisible; else elseBlock">
+    <p>Hello am from true value content here...</p>
+</div>
+
+
+<ng-template #elseBlock>
+<p>Hello am from false message...</p>
+</ng-template>
+
+
+<button (click)="togglecontent()">
+    Toggle info
+</button>
+
+
+<table border="1">
+    <tr *ngFor="let cs of courses">
+        <td>{{cs}}</td>
+    </tr>
+</table>
