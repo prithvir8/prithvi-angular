@@ -14,6 +14,13 @@ const routes: Routes = [
 {path:'AttributeBinding',
   component:AttributeBindingComponent
 },
+{path:'userslist',
+  component:UserslistComponent
+},
+{
+  path:'userdetails/:id',
+  component:UserdetailsComponent
+},
 {
   path:'ClassBinding',
   component:ClassbindingComponent
@@ -36,13 +43,7 @@ const routes: Routes = [
       path:'childone',
       component:ChildoneComponent
     },
-    {path:'userslist',
-      component:UserslistComponent
-    },
-    {
-      path:'userdetails/:id',
-      component:UserdetailsComponent
-    },
+    
     {
       path:'childtwo',
       component:ChildtwoComponent

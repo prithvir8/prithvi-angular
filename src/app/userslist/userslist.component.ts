@@ -8,6 +8,6 @@ import { UserlistService } from '../userlist.service';
 })
 export class UserslistComponent {
 
-  constructor(private ts:UserlistService){}
-usersData:any[]=this.ts.userslist
+  constructor(private userservicedata:UserlistService){}
+usersData:any[]=this.userservicedata.userslist
 }

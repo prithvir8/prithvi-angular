@@ -1,10 +1,10 @@
 <h1>Users List</h1>
-<div *ngFor="let ul of usersData" class="listdiv">
+<div *ngFor="let ulist of usersData" class="listdiv">
     <li>
-        {{ul.username}}
+        {{ulist.name}}
     </li>
     <span>
-        <a [routerLink]="['/userdetails',ul.id]">
+        <a [routerLink]="['/userdetails',ulist.id]">
         more User Details
     </a>
     </span>

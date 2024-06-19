@@ -1,8 +1,22 @@
 <h1>Userdetails works!</h1>
-<div>
-    <h2>{{cuser.username}}</h2>
-    <p>{{cuser.email}}</p>
-    <p>{{cuser.address.city}}</p>
-    <p>{{cuser.phone}}</p>
-    <p>{{cuser.company.name}}</p>
+<div align="center">
+    <table border="1" align="center">
+        <tr>
+            <td>Name</td>
+            <td>User Name</td>
+            <td>Email</td>
+            <td>Address</td>
+            <td>Phone</td>
+            <td>Company Name</td>
+        </tr>
+        <tr>
+            <td>{{cuser.name}}</td>
+            <td>{{cuser.username}}</td>
+            <td>{{cuser.email}}</td>
+            <td>{{cuser.address.city}}</td>
+            <td>{{cuser.phone}}</td>
+            <td>{{cuser.company.name}}</td>
+        </tr>
+    </table>
+    
 </div>
