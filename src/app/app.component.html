@@ -1,3 +1,8 @@
 <app-userslist></app-userslist>
-
+<ul>
+    <li routerLink="/products">All Products</li>
+    <li routerLink="/products" [queryParams]="{'category':'Mens'}">Mens</li>
+    <li routerLink="/products" [queryParams]="{'category':'womens'}">WoMens</li>
+    <li routerLink="/products" [queryParams]="{'category':'kids'}">Kids</li>
+</ul>
 <router-outlet></router-outlet>

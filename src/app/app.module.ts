@@ -55,6 +55,7 @@ import { GlobalDataComponent } from './global-data/global-data.component';
 import { GetapidataComponent } from './getapidata/getapidata.component';
 import { UserslistComponent } from './userslist/userslist.component';
 import { UserdetailsComponent } from './userdetails/userdetails.component';
+import { ProductsComponent } from './products/products.component';
 
 
 
@@ -101,7 +102,8 @@ import { UserdetailsComponent } from './userdetails/userdetails.component';
     GlobalDataComponent,
     GetapidataComponent,
     UserslistComponent,
-    UserdetailsComponent
+    UserdetailsComponent,
+    ProductsComponent
   ],
   imports: [
     BrowserModule,

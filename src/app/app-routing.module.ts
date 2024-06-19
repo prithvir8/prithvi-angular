@@ -9,6 +9,7 @@ import { ChildoneComponent } from './childone/childone.component';
 import { ChildtwoComponent } from './childtwo/childtwo.component';
 import { UserslistComponent } from './userslist/userslist.component';
 import { UserdetailsComponent } from './userdetails/userdetails.component';
+import { ProductsComponent } from './products/products.component';
 
 const routes: Routes = [
 {path:'AttributeBinding',
@@ -20,6 +21,9 @@ const routes: Routes = [
 {
   path:'userdetails/:id',
   component:UserdetailsComponent
+},
+{
+  path:'products',component:ProductsComponent
 },
 {
   path:'ClassBinding',
