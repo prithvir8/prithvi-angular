@@ -56,6 +56,8 @@ import { GetapidataComponent } from './getapidata/getapidata.component';
 import { UserslistComponent } from './userslist/userslist.component';
 import { UserdetailsComponent } from './userdetails/userdetails.component';
 import { ProductsComponent } from './products/products.component';
+import { ConditionrouteComponent } from './conditionroute/conditionroute.component';
+import { LoginComponent } from './login/login.component';
 
 
 
@@ -103,7 +105,9 @@ import { ProductsComponent } from './products/products.component';
     GetapidataComponent,
     UserslistComponent,
     UserdetailsComponent,
-    ProductsComponent
+    ProductsComponent,
+    ConditionrouteComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

@@ -10,6 +10,10 @@ import { ChildtwoComponent } from './childtwo/childtwo.component';
 import { UserslistComponent } from './userslist/userslist.component';
 import { UserdetailsComponent } from './userdetails/userdetails.component';
 import { ProductsComponent } from './products/products.component';
+import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
+import { LoginComponent } from './login/login.component';
+import { AuthService } from './auth.service';
 
 const routes: Routes = [
 {path:'AttributeBinding',
@@ -40,8 +44,21 @@ const routes: Routes = [
   component:NgIfdirectiveComponent
 },
 {
+  path:'about',
+  component:AboutComponent
+},
+{
+  path:'contact',
+  component:ContactComponent,
+  canActivate:[AuthService]
+},{
+path:'login',
+component:LoginComponent
+},
+{
   path:'home',
   component:HomeComponent,
+  canActivate:[AuthService],
   children:[
     {
       path:'childone',
