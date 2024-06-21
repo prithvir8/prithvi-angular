@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 export class AuthService implements CanActivate {
 
   constructor(private rootfalse:Router) { }
-canActivate(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): any {
+canActivate(): any {
     let loggedin=true;
 
     if(loggedin){
