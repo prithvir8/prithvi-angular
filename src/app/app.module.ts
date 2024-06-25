@@ -13,7 +13,7 @@ import { StyleBindingComponent } from './style-binding/style-binding.component';
 import { ClassbindingComponent } from './classbinding/classbinding.component';
 import { EventbindingComponent } from './eventbinding/eventbinding.component';
 import { TwowaydatabindingComponent } from './twowaydatabinding/twowaydatabinding.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NgIfdirectiveComponent } from './ng-ifdirective/ng-ifdirective.component';
 import { NgswitchComponent } from './ngswitch/ngswitch.component';
 import { AttributedirectiveComponent } from './attributedirective/attributedirective.component';
@@ -58,6 +58,7 @@ import { UserdetailsComponent } from './userdetails/userdetails.component';
 import { ProductsComponent } from './products/products.component';
 import { ConditionrouteComponent } from './conditionroute/conditionroute.component';
 import { LoginComponent } from './login/login.component';
+import { AngularformsComponent } from './angularforms/angularforms.component';
 
 
 
@@ -107,7 +108,9 @@ import { LoginComponent } from './login/login.component';
     UserdetailsComponent,
     ProductsComponent,
     ConditionrouteComponent,
-    LoginComponent
+    LoginComponent,
+    AngularformsComponent,
+    
   ],
   imports: [
     BrowserModule,
@@ -120,7 +123,8 @@ import { LoginComponent } from './login/login.component';
       [MatCardModule, MatButtonModule],
       [MatIconModule],
       [HttpClientModule],
-   
+      ReactiveFormsModule,
+      FormsModule
    
 
 

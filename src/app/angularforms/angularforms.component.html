@@ -1,0 +1,17 @@
+<h1>User Interface Form</h1>
+<form action="">
+
+<label class="form-label">User Name</label>
+
+<input type="text" class="form-control" required minlength="5" ngModel name="uname" #un="ngModel">
+
+<p *ngIf="un.touched && un.errors?.['required']" class="error">User Name is Required...</p>
+<p *ngIf="un.touched && un.errors?.['minlength']" class="error">user Name contain min length -5 char</p>
+
+<label class="form-label" >Password</label>
+<input type="password" class="form-control" ngModel name="password" #psd="ngModel" required minlength="5">
+<p *ngIf="psd.touched && psd.errors?.['required']" class="error">User password is Required...</p>
+<p *ngIf="psd.touched && psd.errors?.['minlength']" class="error">Password length is min-5</p>
+
+<button class="btn btn-primary mb-3">Submit</button>
+</form>
