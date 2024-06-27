@@ -1,0 +1,22 @@
+<h1>angular-reactive-form works!</h1>
+<form [formGroup]="allfields">
+    
+    <div>
+        <label>User Name</label>
+        <input type="text" class="form-control" formControlName="username">
+        <p *ngIf="allfields.get('username')?.touched&&allfields.get('username')?.hasError('required')">plz enter the user name</p>
+
+        
+      <!--   <p *ngIf="allfields.get('username')?.touched &&allfields.get('username')?.hasError('minlength')">plz enter min 8 char.</p> -->
+
+        <p *ngIf="allfields.controls['username'].touched && allfields.controls['username'].errors?.['noupper']">Plz Enter the min 8 char</p>
+
+    </div>
+
+    <div>
+        <label>User email</label>
+        <input type="email" class="form-control" formControlName="email">
+    </div>
+
+    <button class="btn btn-success">Submit</button>
+</form>

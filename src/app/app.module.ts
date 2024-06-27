@@ -59,6 +59,7 @@ import { ProductsComponent } from './products/products.component';
 import { ConditionrouteComponent } from './conditionroute/conditionroute.component';
 import { LoginComponent } from './login/login.component';
 import { AngularformsComponent } from './angularforms/angularforms.component';
+import { AngularReactiveFormComponent } from './angular-reactive-form/angular-reactive-form.component';
 
 
 
@@ -110,6 +111,7 @@ import { AngularformsComponent } from './angularforms/angularforms.component';
     ConditionrouteComponent,
     LoginComponent,
     AngularformsComponent,
+    AngularReactiveFormComponent,
     
   ],
   imports: [
