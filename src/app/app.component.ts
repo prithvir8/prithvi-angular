@@ -8,14 +8,18 @@ import {ViewchildComponent} from './viewchild/viewchild.component'
 })
 export class AppComponent {
 
-  mstyles:string='menustyles';
+message:any='Hello am from parent data... '
 
-  @ViewChild(ViewchildComponent) mychildone:any
-  test(){
-    console.log(this.mychildone.passtoparent());
+pd=''
+  persondata=[
+    "Jeevan",
+    "Dilsukhnagar",
+    "Hyderabd",
+    "83489439843"
+  ]
+  addpersondata(){
+    /* this.addpersondata.push(this.pd); */
+    this.pd=''
   }
-  
-  childdata:any;
-
 }
 

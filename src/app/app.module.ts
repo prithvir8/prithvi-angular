@@ -60,6 +60,7 @@ import { ConditionrouteComponent } from './conditionroute/conditionroute.compone
 import { LoginComponent } from './login/login.component';
 import { AngularformsComponent } from './angularforms/angularforms.component';
 import { AngularReactiveFormComponent } from './angular-reactive-form/angular-reactive-form.component';
+import { LifecycleComponent } from './lifecycle/lifecycle.component';
 
 
 
@@ -112,7 +113,9 @@ import { AngularReactiveFormComponent } from './angular-reactive-form/angular-re
     LoginComponent,
     AngularformsComponent,
     AngularReactiveFormComponent,
-    
+    LifecycleComponent,
+
+
   ],
   imports: [
     BrowserModule,
@@ -126,7 +129,11 @@ import { AngularReactiveFormComponent } from './angular-reactive-form/angular-re
       [MatIconModule],
       [HttpClientModule],
       ReactiveFormsModule,
-      FormsModule
+      FormsModule,
+      MatIconModule,
+      [MatCardModule],
+      
+
    
 
 

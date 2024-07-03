@@ -1,11 +1,6 @@
-<!-- <app-conditionroute></app-conditionroute> -->
-<!-- <app-userslist></app-userslist>
-<ul>
-    <li routerLink="/products">All Products</li>
-    <li routerLink="/products" [queryParams]="{'category':'Mens'}">Mens</li>
-    <li routerLink="/products" [queryParams]="{'category':'womens'}">WoMens</li>
-    <li routerLink="/products" [queryParams]="{'category':'kids'}">Kids</li>
-</ul>
-<router-outlet></router-outlet> -->
-<!-- <app-angularforms></app-angularforms> -->
- <app-angular-reactive-form></app-angular-reactive-form>
+<h1>Using LifeCycle Methods... here am parent Component</h1>
+<app-lifecycle [pd]="persondata" ></app-lifecycle>
+
+
+<input type="text" [(ngModel)]="persondata">
+<button (click)="addpersondata()">Click Here</button>
