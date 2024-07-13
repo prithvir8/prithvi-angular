@@ -61,6 +61,8 @@ import { LoginComponent } from './login/login.component';
 import { AngularformsComponent } from './angularforms/angularforms.component';
 import { AngularReactiveFormComponent } from './angular-reactive-form/angular-reactive-form.component';
 import { LifecycleComponent } from './lifecycle/lifecycle.component';
+import { ProjectindexComponent } from './projectindex/projectindex.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 
 
@@ -114,6 +116,8 @@ import { LifecycleComponent } from './lifecycle/lifecycle.component';
     AngularformsComponent,
     AngularReactiveFormComponent,
     LifecycleComponent,
+    ProjectindexComponent,
+    NavbarComponent,
 
 
   ],
