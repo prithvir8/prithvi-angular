@@ -63,6 +63,7 @@ import { AngularReactiveFormComponent } from './angular-reactive-form/angular-re
 import { LifecycleComponent } from './lifecycle/lifecycle.component';
 import { ProjectindexComponent } from './projectindex/projectindex.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 
@@ -118,6 +119,7 @@ import { NavbarComponent } from './navbar/navbar.component';
     LifecycleComponent,
     ProjectindexComponent,
     NavbarComponent,
+    FooterComponent,
 
 
   ],

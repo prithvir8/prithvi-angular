@@ -13,6 +13,7 @@ import { ProductsComponent } from './products/products.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { LoginComponent } from './login/login.component';
+import { ProjectindexComponent } from './projectindex/projectindex.component';
 import { AuthService } from './auth.service';
 
 const routes: Routes = [
@@ -45,7 +46,7 @@ const routes: Routes = [
 },
 {
   path:'about',
-  component:AboutComponent
+  component:AboutComponent, canActivate:[AuthService]
 },
 {
   path:'contact',
@@ -70,7 +71,8 @@ component:LoginComponent
       component:ChildtwoComponent
     },
   ]
-}
+},
+
 ];
 
 @NgModule({

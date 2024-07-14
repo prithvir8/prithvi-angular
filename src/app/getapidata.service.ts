@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class GetapidataService {
-url='https://jsonplaceholder.typicode.com/users';
+url='https://jsonplac   eholder.typicode.com/users';
 url2='https://jsonplaceholder.typicode.com/posts';
 userdata=[
   {
